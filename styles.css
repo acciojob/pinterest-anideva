@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero container */
+.hero {
+  display: flex; /* required */
+  justify-content: center; /* centers text horizontally in its side */
+  align-items: center; /* centers text vertically in its side */
+  height: 100vh; /* full viewport height */
+}
+
+.hero image {
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+	display: block;
+}
+
+.hero-content {
+	padding: 20px;
+	background-color: white;
+	color: black;
+	border-radius: 4px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.hero-content a:hover {
+	background-color: red;
+}
